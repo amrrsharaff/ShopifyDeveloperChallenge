@@ -49,7 +49,7 @@ Run:
 To purchase a product:
 
 mutation {
-  UpdateProduct(username:<username>){
+  UpdateProduct(username:"orange"){
     product{
       title
       inventory
