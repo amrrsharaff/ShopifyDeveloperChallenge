@@ -14,15 +14,15 @@ My minimalist server uses GraphQL.
 
 Run the following script to have some data to test it with and to initialize the database:
 
-python
-- >>> from app import db, User, Post
-- >>> db.create_all()
-- >>> product = Product()
-- >>> product.title = "orange"
-- >>> product.inventory = 180
-- >>> product.price = 123
-- >>> db.session.add(product)
-- >>> db.session.commit()
+- python
+- from app import db, User, Post
+- db.create_all()
+- product = Product()
+- product.title = "orange"
+- product.inventory = 180
+- product.price = 123
+- db.session.add(product)
+- db.session.commit()
 
 Now run the following
 
