@@ -4,8 +4,8 @@ My minimalist server uses GraphQL.
 
 # To initialize the server open up a terminal window, clone the repo and write these commands:
 
--- cd ShopifyDeveloperChallenge
--- pip install virtualenv
+- cd ShopifyDeveloperChallenge
+- pip install virtualenv
 -- virtualenv venv
 -- source venv/bin/activate
 -- pip install flask flask-graphql flask-migrate flask-sqlalchemy graphene graphene-sqlalchemy
