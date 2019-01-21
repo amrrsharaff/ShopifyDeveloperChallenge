@@ -6,23 +6,23 @@ My minimalist server uses GraphQL.
 
 - cd ShopifyDeveloperChallenge
 - pip install virtualenv
--- virtualenv venv
--- source venv/bin/activate
--- pip install flask flask-graphql flask-migrate flask-sqlalchemy graphene graphene-sqlalchemy
+- virtualenv venv
+- source venv/bin/activate
+- pip install flask flask-graphql flask-migrate flask-sqlalchemy graphene graphene-sqlalchemy
 
 # You should now have all the requirements installed
 
 Run the following script to have some data to test it with and to initialize the database:
 
 python
--- >>> from app import db, User, Post
--- >>> db.create_all()
--- >>> product = Product()
--- >>> product.title = "orange"
--- >>> product.inventory = 180
--- >>> product.price = 123
--- >>> db.session.add(product)
--- >>> db.session.commit()
+- >>> from app import db, User, Post
+- >>> db.create_all()
+- >>> product = Product()
+- >>> product.title = "orange"
+- >>> product.inventory = 180
+- >>> product.price = 123
+- >>> db.session.add(product)
+- >>> db.session.commit()
 
 Now run the following
 
